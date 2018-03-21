@@ -1,0 +1,18 @@
+[
+{"keys": ["ctrl+shift+b"], "command": "exec", "args": {"kill": true} },
+{"keys": ["ctrl+e"], "command": "reopen", "args": {"encoding": "Cyrillic (Windows 1251)" } },
+{"keys": ["alt+e"],  "command": "set_file_type", "args": {"syntax": "Packages/User/4GL.tmLanguage"} },
+{"keys": ["ctrl+shift+o"], "command": "fopen"},
+{"keys": ["ctrl+shift+p"], "command": "fprint"},
+{"keys": ["ctrl+shift+="], "command": "calc"},
+{"keys": ["ctrl+shift+8"], "command": "p2ftp", "args": { "ip": "192.1.2.68", 
+                                                         "directory": "/qbis/wrk/user_wrk/RUSH/", 
+                                                         "login": "bpd", 
+                                                         "password": "" }},
+{"keys": ["ctrl+shift+9"], "command": "p2ftp", "args": { "ip": "192.1.2.69", 
+                                                         "directory": "/qbis/wrk/user_wrk/RUSH/", 
+                                                         "login": "bpd", 
+                                                         "password": "" }},
+{"keys": ["ctrl+shift+]"], "command": "phones", "args": { "file_path": "T:\\" }},
+{"keys": ["f8"], "command": "permute_lines", "args": {"operation": "unique"}}
+]

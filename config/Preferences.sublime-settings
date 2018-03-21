@@ -1,0 +1,16 @@
+{
+	"color_scheme": "Packages/User/Solarized (Dark).tmTheme",
+	"default_encoding": "Cyrillic (Windows 866)",
+	"draw_white_space": "all",
+	"fallback_encoding": "Cyrillic (Windows 866)",
+	"font_face": "Lucida Console",
+	"font_options":
+	[
+		"no_antialias"
+	],
+	"font_size": 10.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}

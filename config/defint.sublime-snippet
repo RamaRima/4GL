@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[DEF VAR $1 AS INT FORMAT "zzzzz$2" NO-UNDO.]]></content>
+    <tabTrigger>defInt</tabTrigger>
+    <scope>source.4GL</scope>
+    <description>DEF VAR AS INT</description>
+</snippet>

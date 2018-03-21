@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[DEF VAR $1 AS DEC FORMAT "$2zzz,zzz,zz9.99" NO-UNDO.]]></content>
+    <tabTrigger>defDec</tabTrigger>
+    <scope>source.4GL</scope>
+    <description>DEF VAR AS DEC</description>
+</snippet>

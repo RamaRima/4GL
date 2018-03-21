@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[FOR EACH $1 WHERE $2 NO-LOCK.
+  $3
+END.]]></content>
+    <tabTrigger>for each</tabTrigger>
+    <scope>source.4GL</scope>
+    <description>FOR EACH ... WHERE ... NO-LOCK.</description>
+</snippet>

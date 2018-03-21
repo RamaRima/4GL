@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[MESSAGE $1 VIEW-AS ALERT-BOX.]]></content>
+    <tabTrigger>message</tabTrigger>
+    <scope>source.4GL</scope>
+    <description>MESSAGE VIEW-AS ALERT-BOX</description>
+</snippet>

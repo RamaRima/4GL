@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>4GL</string> 
+        <key>scopeName</key>
+        <string>source.4GL</string>
+        <key>fileTypes</key>
+
+        <array>
+            <string>p</string>
+            <string>i</string>
+            <string>fun</string>
+        </array>
+
+        <key>patterns</key>
+        <array>
+
+        <dict>
+            <key>begin</key>
+            <string>(")</string>
+            <key>end</key>
+            <string>(")</string>
+            <key>name</key>
+            <string>grass</string>
+        </dict>
+
+        <dict>
+            <key>begin</key>
+            <string>(')</string>
+            <key>end</key>
+            <string>(')</string>
+            <key>name</key>
+            <string>grass</string>
+        </dict>
+
+        <dict>
+            <key>begin</key>
+            <string>(/\*\*\*)</string>
+            <key>end</key>
+            <string>(\*\*\*/)</string>
+            <key>name</key>
+            <string>earth</string>
+        </dict>
+
+        <dict>
+            <key>begin</key>
+            <string>(/\*)</string>
+            <key>end</key>
+            <string>(\*/)</string>
+            <key>name</key>
+            <string>earth</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>fox</string> 
+            <key>match</key>
+            <string>{.*?}</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>fox</string> 
+            <key>match</key>
+            <string>\b[a-z0-9-]+\.(p|i|def|i)\b</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>bubblegum</string> 
+            <key>match</key>
+            <string>\b\d*\b</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>gold</string> 
+            <key>match</key>
+            <string>(?!\b[A-Z][A-Z0-9_-]+\b)(?!\b[a-z].+\b)(\b[A-Z][A-Za-z0-9_-]+\b)</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>sky</string> 
+            <key>match</key>
+            <string>\(|\)|,|\.</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>lemon</string> 
+            <key>match</key>
+            <string>(&lt;)|(&gt;)|(=)|(\+)|(\?)|(\*)|(/)|( - )</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>sky</string> 
+            <key>match</key>
+            <string>\b([A-Z])([A-Z0-9]+)\b</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>silver</string> 
+            <key>match</key>
+            <string>.*?</string>
+        </dict>
+
+        </array>
+
+    </dict>
+</plist>
+
+
